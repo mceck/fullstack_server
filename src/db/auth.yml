@@ -1,0 +1,14 @@
+db:
+  - Role:
+      name: admin
+      description: Admin role
+  - Role:
+      name: user
+      description: User role
+  - User:
+      id: 1
+      username: admin
+      password: $2a$12$OECcaDGwGRqJOc7pIbXJ3.PWZNO6.9P6CMqHgxL7NFo30aTuxpGhy # admin
+      email: admin@test.com
+      role: admin
+      tokenVersion: 0
