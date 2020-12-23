@@ -3,6 +3,17 @@
 install packages:
 `yarn`
 
+setup
+
+create a .env file with the secrets for jwt
+
+```
+JWT_SECRET=my_secret
+JWT_REFRESH_SECRET=my_secret2
+```
+
+config db connection in ormconfig.json
+
 start dev server
 `yarn start`
 
